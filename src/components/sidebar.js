@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 export default function Sidebar({ showSidebar, setAside }) {
   return (
-    <aside className={`${showSidebar ? 'left-0' : 'left-[-100%]'} bg-[#D1D4D4] transition-all duration-150 ease-in-out delay-150 w-full h-[100vh] absolute top-0 flex flex-col justify-between md:hidden`}>
+    <aside className={`${showSidebar ? 'left-0' : 'left-[-100%]'} z-50 bg-[#D1D4D4] transition-all duration-150 ease-in-out delay-150 w-full h-[100vh] absolute top-0 flex flex-col justify-between md:hidden`}>
          <div>
             <div className='p-4 sm:p-6 flex justify-between bg-[#5B6161]'>
               <div className='flex items-center'>

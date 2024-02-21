@@ -21,7 +21,7 @@ export default function AboutUs() {
           </button>
         </div>
 
-        <Image src="/Images/Nirina_za_Landing_Page/About_Us_Image.png" className="z-5 rounded-3xl relative bottom-[30px] lg:bottom-0" alt='Nirina dog shelter' height={1400} width={1400}/>
+        <Image src="/images/Nirina_za_Landing_Page/About_Us_Image.png" className="z-5 rounded-3xl relative bottom-[30px] lg:bottom-0" alt='Nirina dog shelter' height={1400} width={1400}/>
       </div>
     </div>
   );

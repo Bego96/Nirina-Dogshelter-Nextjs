@@ -11,8 +11,8 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-          "hero-img": "url('/images/Nirina za Landing Page/Hero Image.png')",
-          
+          "hero-img": "url('/images/Nirina_za_Landing_Page/Hero_Image.png')",
+          "aboutUs-img": "url('/images/Nirina_za_Landing_Page/About_Us_Image.png')",
       },
     },
     screens: {

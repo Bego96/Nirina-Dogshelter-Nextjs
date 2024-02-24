@@ -7,7 +7,7 @@ export default function AboutUs() {
 
       <div className='w-full xl:w-[80%] rounded-3xl relative ' >
 
-        <div className='relative z-30 xl:z-10 p-4 w-full bg-[#333A3A] xl:p-16 lg:top-[30%] lg:left-10 lg:absolute lg:w-[50%] 2xl:p-24 xl:-left-[25%] xl:top-12 rounded-2xl 2xl:top-[15%] 2xl:-left-[25%]'>
+        <div className='md:shadow-[0_6px_16px_rgb(0,0,0,0.4)] relative z-30 xl:z-10 p-4 w-full bg-[#333A3A] xl:p-16 lg:top-[30%] lg:left-10 lg:absolute lg:w-[50%] 2xl:p-24 xl:-left-[25%] xl:top-12 rounded-2xl 2xl:top-[15%] 2xl:-left-[25%]'>
           <h2 className='font-semibold text-4xl xl:text-6xl'>About Us</h2>
           <p className='text-xl mt-12'>
             Founded in 2012, <q>Nirina</q> took over a struggling shelter,

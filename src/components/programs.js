@@ -50,7 +50,7 @@ export default function Programs() {
                 </p>
             </div>
         </div>
-        <div className='mb-2 md:mb-8 xl:mb-12 flex flex-col bg-[#333A3A] p-8 rounded-xl justify-center items-center md:flex-row'>
+        <div className='mb-2 md:mb-8 xl:mb-0 flex flex-col bg-[#333A3A] p-8 rounded-xl justify-center items-center md:flex-row'>
            
             <div className='w-full md:w-1/2 lg:w-[30%] relative'>
                 <div className='px-6 text-center absolute bottom-2 left-1/2 transform -translate-y-[5%] -translate-y-[30%] -translate-x-1/2 xl:-translate-y-[10%] p-4 bg-slate-600 bg-opacity-30 rounded-xl'>

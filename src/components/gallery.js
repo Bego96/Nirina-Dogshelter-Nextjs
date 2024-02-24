@@ -9,8 +9,6 @@ import DogPhotos from './dogPhotos';
 export default function Gallery() {
     const [imgGallery, setImgGallery] = useState(imageList);
     
-
-
   return (
     <div className='bg-[#D1D4D4] py-8'>
       <h3 className='bg-[#5B6161] py-4 text-center font-semibold text-4xl xl:text-6xl'>Gallery</h3>

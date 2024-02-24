@@ -1,6 +1,5 @@
 'use client'
 import { useState } from "react";
-import Image from "next/image";
 import Main from "@/components/main";
 import Navigation from "@/components/navigation";
 import Sidebar from "@/components/sidebar";
@@ -15,7 +14,6 @@ export default function Home() {
   return (
     <>
       <Sidebar showSidebar={showSidebar} setAside={setAside}/> 
-    
        <Navigation setAside={setAside}/>
       <Main />
     </>

@@ -13,7 +13,7 @@ export default function DogPhotos({imgGalleryNew}) {
     const [winWidth, setWinWidth] = useState(0)
 
     const handleWindowResize = () => {
-      setWinWidth(1023);
+      setWinWidth(window.innerWidth);
     }
 
     let galleryLens = 10;

@@ -4,7 +4,7 @@ import  { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import ImgGallery from './imgGallery';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
@@ -17,7 +17,8 @@ export default function DogPhotos({imgGalleryNew}) {
     let id = galleryLens/10
     let multiplier = 1;
 
-    for (let i = 0; i < imgGalleryCopy.length; i++) {
+    if (window.innerWidth > 1023) {
+      for (let i = 0; i < imgGalleryCopy.length; i++) {
         
         if (arr.length >= 10) { 
             galleryArrays.push({id: id,
@@ -29,16 +30,20 @@ export default function DogPhotos({imgGalleryNew}) {
         arr.push(
             imgGalleryCopy[i]
         ); 
+      }
+    } else {
+      galleryArrays = imgGalleryCopy;
     }
+    
 
   return (
     <div className='px-4 py-12'>
         
         <Swiper
-            modules={[ Pagination,  ]}
-          spaceBetween={0}
+          modules={[window.innerWidth > 1023 ? Pagination : Navigation]}
+          spaceBetween={10}
           slidesPerView={1}
-          
+          navigation
           pagination={{ clickable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
@@ -47,7 +52,7 @@ export default function DogPhotos({imgGalleryNew}) {
           {galleryArrays.map((imgs, index) => (
             <SwiperSlide key={imgs.id}>
               <div className='flex flex-col flex-wrap lg:flex-row'>
-                <ImgGallery gallery={imgs.imgs} />
+                <ImgGallery gallery={imgs.imgs} imgSrc={imgs.imgSrc} key={imgs.id}/>
               </div>
             </SwiperSlide>
           ))}

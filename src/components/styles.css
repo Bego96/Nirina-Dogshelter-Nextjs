@@ -5,11 +5,23 @@
     background-color: #008080;
 }
 
-@media only screen and (max-width: 1024px) {
+.swiper-button-prev, .swiper-button-next {
+    color: #008080;
+    width: 18px;
+}
+
+@media only screen and (max-width: 1023px) {
     .swiper-pagination-bullet {
-        width: 10px;
-        height: 10px;
-        margin:0 10px !important;
-       
+       display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .swiper-pagination-bullet {
+       display: inline-block;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
     }
 }

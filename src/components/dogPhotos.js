@@ -53,7 +53,7 @@ export default function DogPhotos({imgGalleryNew}) {
     <div className='px-4 py-12'>
         
         <Swiper
-          modules={[winWidth > 1023 ? Pagination : Navigation]}
+          modules={[Pagination, Navigation]}
           spaceBetween={10}
           slidesPerView={1}
           navigation

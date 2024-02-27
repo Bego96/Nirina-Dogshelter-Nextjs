@@ -1,5 +1,5 @@
 'use client'
-import { useState } from "react";
+import { useState, } from "react";
 import Main from "@/components/main";
 import Navigation from "@/components/navigation";
 import Sidebar from "@/components/sidebar";
@@ -11,6 +11,7 @@ export default function Home() {
     setShowSidebar(!showSidebar)
   }
 
+ 
   return (
     <>
       <Sidebar showSidebar={showSidebar} setAside={setAside}/> 

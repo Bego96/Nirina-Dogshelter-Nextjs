@@ -12,9 +12,9 @@ export default function Header() {
                 The primary goal is to bring joy to our furry friends. Spend time petting them, sharing treats, and playing with toys - and in return, 
                 they will reward you with unwavering trust. 
                 </p>
-                <button className="w-full mt-12 group relative h-[44px] sm:w-[250px] overflow-hidden rounded-lg bg-[#008080] text-lg shadow cursor-pointer">
-                    <div className="absolute inset-0 w-0 bg-[#25a5be] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                    <span className="relative text-white md:font-semibold">Ask for Adopt</span>
+                <button className="w-full mt-12 text-black hover:text-white group relative h-[44px] sm:w-[250px] overflow-hidden rounded-lg bg-yellow text-lg shadow cursor-pointer">
+                    <div className="absolute inset-0 w-0 bg-orange transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                    <span className="relative md:font-semibold">Ask for Adopt</span>
                 </button>
             </div>
         </div>

@@ -2,14 +2,14 @@ import React from 'react'
 import Image from 'next/image'
 export default function Programs() {
   return (
-    <div className='flex flex-col items-center bg-[#5B6161] p-4 xl:p-32'>
+    <div className='flex flex-col items-center bg-white text-black p-4 xl:p-32'>
         <h2 className='font-semibold text-4xl xl:text-6xl mb-12'>Programs</h2>
-        <div className='mb-4 md:mb-12 xl:mb-24 flex flex-col bg-[#333A3A] p-8 rounded-xl justify-center items-center md:flex-row'>
+        <div className='shadow-[0_6px_16px_rgb(0,0,0,0.2)] mb-4 md:mb-12 xl:mb-24 flex flex-col bg-bordeaux-brown p-8 rounded-xl justify-center items-center md:flex-row'>
            
             <div className='w-full md:w-1/2 lg:w-[30%] relative'>
-                <div className='px-6 text-center absolute bottom-2 left-1/2 transform -translate-y-[5%] -translate-y-[30%] -translate-x-1/2 xl:-translate-y-[10%] p-4 bg-slate-600 bg-opacity-30 rounded-xl'>
+                <div className='px-6 text-center text-white absolute bottom-2 left-1/2 transform -translate-y-[5%] -translate-y-[30%] -translate-x-1/2 xl:-translate-y-[10%] p-4 bg-slate-600 bg-opacity-30 rounded-xl'>
                     <p className='mb-2 md:text-xl'>Various Programs</p>
-                    <p className='text-slate-200 md:text-xl'>Walking and more..</p>
+                    <p className='md:text-xl'>Walking and more..</p>
                 </div>
                 <Image src="/images/Nirina_za_Landing_Page/Card-2.png" height={500} width={500} className="w-full" alt="Varius programs"/>
             </div>
@@ -29,10 +29,11 @@ export default function Programs() {
                 </div>
             </div>
         </div>
-        <div className='mb-4 md:mb-12 xl:mb-24 flex flex-col bg-[#333A3A] p-8 rounded-xl justify-center items-center md:flex-row'>
+
+        <div className='shadow-[0_6px_16px_rgb(0,0,0,0.2)] mb-4 md:mb-12 xl:mb-24 flex flex-col bg-bordeaux-brown p-8 rounded-xl justify-center items-center md:flex-row'>
            
             <div className='w-full md:w-1/2 lg:w-[30%] relative'>
-                <div className='px-6 text-center absolute bottom-2 left-1/2 transform -translate-y-[5%] -translate-y-[30%] -translate-x-1/2 xl:-translate-y-[10%] p-4 bg-slate-600 bg-opacity-30 rounded-xl'>
+                <div className='px-6 text-center absolute text-white bottom-2 left-1/2 transform -translate-y-[5%] -translate-y-[30%] -translate-x-1/2 xl:-translate-y-[10%] p-4 bg-slate-600 bg-opacity-30 rounded-xl'>
                     <p className='mb-2 md:text-xl'>cca3000</p>
                     <p className='text-slate-200 md:text-xl'>Total dogs adopted</p>
                 </div>
@@ -50,10 +51,11 @@ export default function Programs() {
                 </p>
             </div>
         </div>
-        <div className='mb-2 md:mb-8 xl:mb-0 flex flex-col bg-[#333A3A] p-8 rounded-xl justify-center items-center md:flex-row'>
+
+        <div className='shadow-[0_6px_16px_rgb(0,0,0,0.2)] mb-2 md:mb-8 xl:mb-0 flex flex-col bg-bordeaux-brown p-8 rounded-xl justify-center items-center md:flex-row'>
            
             <div className='w-full md:w-1/2 lg:w-[30%] relative'>
-                <div className='px-6 text-center absolute bottom-2 left-1/2 transform -translate-y-[5%] -translate-y-[30%] -translate-x-1/2 xl:-translate-y-[10%] p-4 bg-slate-600 bg-opacity-30 rounded-xl'>
+                <div className='px-6 text-center text-white absolute bottom-2 left-1/2 transform -translate-y-[5%] -translate-y-[30%] -translate-x-1/2 xl:-translate-y-[10%] p-4 bg-slate-600 bg-opacity-30 rounded-xl'>
                     <p className='mb-2 md:text-xl'>$ thousands</p>
                     <p className='text-slate-200 md:text-xl'>food & products donation</p>
                 </div>

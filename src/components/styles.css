@@ -2,11 +2,11 @@
     width: 20px;
     height: 20px;
     margin: 0 20px !important;
-    background-color: #008080;
+    background-color: #FFA500;
 }
 
 .swiper-button-prev, .swiper-button-next {
-    color: #008080;
+    color: #FFA500;
     width: 18px;
 }
 

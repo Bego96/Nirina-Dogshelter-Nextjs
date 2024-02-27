@@ -15,6 +15,18 @@ module.exports = {
           "aboutUs-img": "url('/images/Nirina_za_Landing_Page/About_Us_Image.png')",
       },
     },
+    colors: {
+      "dark-brown": 'rgb(139,69,19)',
+      "yellow": 'rgb(255,215,0)',
+      "bordeaux-brown":'rgb(255,233,192)',
+      "light-brown": 'rgb(255,244,224)',
+      "orange": '#FFA500',
+      "dark-orange": 'rgb(176, 116, 42)',
+      "white": 'rgb(255, 255, 255)',
+      "black": 'rgb(0,0,0)',
+      "slate-600": 'rgb(71,85,105)',
+      "slate-700": ' rgb(51,65,85)'
+    },
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }

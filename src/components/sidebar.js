@@ -8,10 +8,13 @@ import { FaPhoneAlt } from "react-icons/fa";
 import Image from 'next/image';
 
 export default function Sidebar({ showSidebar, setAside }) {
+
+
+
   return (
-    <aside className={`${showSidebar ? 'left-0' : 'left-[-100%]'} z-50 bg-[#D1D4D4] transition-all duration-150 ease-in-out delay-150 w-full min-h-[100%] absolute top-0 flex flex-col justify-between md:hidden`}>
+    <aside className={`${showSidebar ? 'left-0' : 'left-[-100%]'} z-50 bg-white transition-all duration-150 ease-in-out delay-150 w-full min-h-[100%] absolute top-0 flex flex-col justify-between md:hidden`}>
          <div>
-            <div className='p-4 sm:p-6 flex justify-between bg-[#5B6161]'>
+            <div className='p-4 sm:p-6 flex justify-between bg-dark-brown'>
               <div className='flex items-center'>
                 <Image src="/images/logo/logo.png" alt="Nirina logo" width={70} height={70} />
                 <p className='ml-4 text-2xl text-white'>
@@ -22,22 +25,22 @@ export default function Sidebar({ showSidebar, setAside }) {
                 <TfiClose size={26} color='white' />
               </div>
             </div>
-            <div className='px-4 py-6 sm:px-6 bg-[#D1D4D4]'>
-              <ul className='text-slate-800 font-semibold text-lg'>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-slate-100 rounded-md flex'><IoIosHome size={26} className='mr-4' />Home</li>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-slate-100 rounded-md flex'><IoIosInformationCircle size={26} className='mr-4' />About Us</li>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-slate-100 rounded-md flex'><BiSolidSpreadsheet size={26} className='mr-4' />Programs</li>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-slate-100 rounded-md flex'><GrGallery size={26} className='mr-4' />Gallery</li>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-slate-100 rounded-md flex'><FaPhoneAlt size={26} className='mr-4' />Contact</li>
+            <div className='px-4 py-6 sm:px-6 bg-white'>
+              <ul className='text-black font-semibold text-lg'>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-orange rounded-md flex'><IoIosHome size={26} className='mr-4' />Home</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-orange rounded-md flex'><IoIosInformationCircle size={26} className='mr-4' />About Us</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-orange rounded-md flex'><BiSolidSpreadsheet size={26} className='mr-4' />Programs</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-orange rounded-md flex'><GrGallery size={26} className='mr-4' />Gallery</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-orange rounded-md flex'><FaPhoneAlt size={26} className='mr-4' />Contact</li>
               </ul>
             </div>
 
           </div>
 
-        <div className='p-6 bg-[#5B6161] sm:px-8'>
-          <button className="font-semibold block group relative px-12 py-2 overflow-hidden rounded-lg bg-[#008080] text-lg shadow cursor-pointer">
-            <div className="absolute inset-0 w-0 bg-[#25a5be] transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-            <span className="relative text-white md:font-semibold">Donate</span>
+        <div className='p-6 bg-dark-brown sm:px-8'>
+          <button className="font-semibold block group relative px-12 py-2 overflow-hidden rounded-lg bg-yellow text-black shadow cursor-pointer">
+            <div className="absolute inset-0 w-0 bg-orange transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span className="relative text-black hover:text-white md:font-semibold">Donate</span>
           </button>
         </div>
       

@@ -15,6 +15,9 @@ module.exports = {
           "aboutUs-img": "url('/images/Nirina_za_Landing_Page/About_Us_Image.png')",
       },
     },
+    maxWidth: {
+      "content": "max-content"
+    },
     colors: {
       "dark-brown": 'rgb(139,69,19)',
       "yellow": 'rgb(255,215,0)',
@@ -25,7 +28,8 @@ module.exports = {
       "white": 'rgb(255, 255, 255)',
       "black": 'rgb(0,0,0)',
       "slate-600": 'rgb(71,85,105)',
-      "slate-700": ' rgb(51,65,85)'
+      "slate-700": ' rgb(51,65,85)',
+      "bordeaux-light-green": '#87B7B6'
     },
     screens: {
       'sm': '640px',

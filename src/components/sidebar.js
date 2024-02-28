@@ -27,11 +27,11 @@ export default function Sidebar({ showSidebar, setAside }) {
             </div>
             <div className='px-4 py-6 sm:px-6 bg-white'>
               <ul className='text-black font-semibold text-lg'>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-orange rounded-md flex'><IoIosHome size={26} className='mr-4' />Home</li>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-orange rounded-md flex'><IoIosInformationCircle size={26} className='mr-4' />About Us</li>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-orange rounded-md flex'><BiSolidSpreadsheet size={26} className='mr-4' />Programs</li>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-orange rounded-md flex'><GrGallery size={26} className='mr-4' />Gallery</li>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-orange rounded-md flex'><FaPhoneAlt size={26} className='mr-4' />Contact</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex'><IoIosHome size={26} className='mr-4' />Home</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex'><IoIosInformationCircle size={26} className='mr-4' />About Us</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex'><BiSolidSpreadsheet size={26} className='mr-4' />Programs</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex'><GrGallery size={26} className='mr-4' />Gallery</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex'><FaPhoneAlt size={26} className='mr-4' />Contact</li>
               </ul>
             </div>
 

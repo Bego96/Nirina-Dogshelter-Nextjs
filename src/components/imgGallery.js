@@ -12,7 +12,7 @@ export default function ImgGallery({ gallery, key, imgSrc, winWidth }) {
             <Image src={img.imgSrc} className="h-full w-full" width={500} height={1000} alt="dog" />
           </div>
       )) : <div key={key} className='h-full flex justify-center'>
-            <Image src={imgSrc} className="min-h-[300px] w-auto" width={500} height={1000} alt="dog" />
+            <Image src={imgSrc} className="min-h-[250px] w-auto" width={500} height={1000} alt="dog" />
           </div>
           }
     </>

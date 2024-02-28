@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <div className='p-4 lg:p-24'>
+    <div className='px-4 py-16 lg:p-24'>
         <div className='px-4 py-12 bg-hero-img bg-no-repeat bg-cover bg-center rounded-2xl overflow-hidden w-full xl:px-24 xl:py-72'>
             <div className='flex flex-col'>
                 <h1 className='font-semibold text-4xl lg:text-6xl xl:text-7xl'>
@@ -14,7 +14,7 @@ export default function Header() {
                 </p>
                 <button className="w-full mt-12 text-black hover:text-white group relative h-[44px] sm:w-[250px] overflow-hidden rounded-lg bg-yellow text-lg shadow cursor-pointer">
                     <div className="absolute inset-0 w-0 bg-orange transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                    <span className="relative md:font-semibold">Ask for Adopt</span>
+                    <span className="relative font-semibold">Ask for Adopt</span>
                 </button>
             </div>
         </div>

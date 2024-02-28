@@ -29,7 +29,10 @@ module.exports = {
       "black": 'rgb(0,0,0)',
       "slate-600": 'rgb(71,85,105)',
       "slate-700": ' rgb(51,65,85)',
-      "bordeaux-light-green": '#87B7B6'
+      "bordeaux-light-green": '#87B7B6',
+      "bordeaux-dark-green": '#185E5E',
+      "bordeaux-black": '#333333',
+      "bordeaux-slate": '#333A3A'
     },
     screens: {
       'sm': '640px',

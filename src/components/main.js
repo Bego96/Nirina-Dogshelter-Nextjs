@@ -5,6 +5,7 @@ import Programs from './programs'
 import MoreAboutDonate from './moreAboutDonate'
 import Gallery from './gallery'
 import './styles.css'
+import Supporters from './supporters'
 export default function Main() {
   return (
     <main>
@@ -13,6 +14,7 @@ export default function Main() {
         <Programs />
         <MoreAboutDonate />
         <Gallery />
+        <Supporters />
     </main>
   )
 }

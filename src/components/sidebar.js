@@ -6,10 +6,18 @@ import { BiSolidSpreadsheet } from "react-icons/bi";
 import { GrGallery } from "react-icons/gr";
 import { FaPhoneAlt } from "react-icons/fa";
 import Image from 'next/image';
-
+import { useRouter } from 'next/router';
 export default function Sidebar({ showSidebar, setAside }) {
+  // const router = useRouter();
 
-
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    } else {
+     // router.push('/');
+    }
+  };
 
   return (
     <aside className={`${showSidebar ? 'left-0' : 'left-[-100%]'} z-50 bg-white transition-all duration-150 ease-in-out delay-150 w-full min-h-[100%] fixed top-0 flex flex-col justify-between md:hidden`}>
@@ -27,11 +35,11 @@ export default function Sidebar({ showSidebar, setAside }) {
             </div>
             <div className='px-4 py-6 sm:px-6 bg-white'>
               <ul className='text-black font-semibold text-lg'>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex'><IoIosHome size={26} className='mr-4' />Home</li>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex'><IoIosInformationCircle size={26} className='mr-4' />About Us</li>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex'><BiSolidSpreadsheet size={26} className='mr-4' />Programs</li>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex'><GrGallery size={26} className='mr-4' />Gallery</li>
-                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex'><FaPhoneAlt size={26} className='mr-4' />Contact</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex' onClick={() => scrollToSection('homeTop')}><IoIosHome size={26} className='mr-4' />Home</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex' onClick={() => scrollToSection('aboutUs')}><IoIosInformationCircle size={26} className='mr-4' />About Us</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex' onClick={() => scrollToSection('programs')}><BiSolidSpreadsheet size={26} className='mr-4' />Programs</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex' onClick={() => scrollToSection('gallery')}><GrGallery size={26} className='mr-4' />Gallery</li>
+                <li className='mt-4 cursor-pointer p-4 hover:bg-[#008080] hover:text-white hover:bg-dark-brown rounded-md flex' onClick={() => scrollToSection('contact')}><FaPhoneAlt size={26} className='mr-4' />Contact</li>
               </ul>
             </div>
 

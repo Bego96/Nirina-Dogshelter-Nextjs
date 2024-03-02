@@ -10,7 +10,7 @@ export default function Gallery() {
     const [imgGallery, setImgGallery] = useState(imageList);
     
   return (
-    <div className='bg-bordeaux-brown py-8 text-bordeaux-slate'>
+    <div id="gallery" className='bg-bordeaux-brown py-8 text-bordeaux-slate'>
       <h3 className='py-4 text-center font-semibold text-4xl xl:text-6xl'>Gallery</h3>
       <div className='px-4 py-12'>
         <DogPhotos imgGalleryNew={imgGallery}/>

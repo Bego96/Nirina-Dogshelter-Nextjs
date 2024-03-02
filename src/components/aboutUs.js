@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-
+import Link from 'next/link';
 export default function AboutUs() {
   return (
-    <div className='pt-16 bg-bordeaux-brown flex justify-end p-4 lg:p-24'>
+    <div id="aboutUs" className='pt-16 bg-bordeaux-brown flex justify-end p-4 lg:p-24'>
 
       <div className='w-full xl:w-[80%] rounded-3xl relative ' >
 
@@ -15,10 +15,10 @@ export default function AboutUs() {
             challenges, our passion and dedication continue to create positive
             stories and moments.
           </p>
-          <button className="w-full text-black hover:text-white mt-12 group relative h-[44px] sm:w-[250px] overflow-hidden rounded-lg bg-yellow  text-lg shadow cursor-pointer">
+          <Link href="/about"><button className="w-full text-black hover:text-white mt-12 group relative h-[44px] sm:w-[250px] overflow-hidden rounded-lg bg-yellow  text-lg shadow cursor-pointer">
             <div className="absolute inset-0 w-0 bg-orange transition-all duration-[250ms] ease-out group-hover:w-full"></div>
             <span className="relative font-semibold">Learn More</span>
-          </button>
+          </button></Link>
         </div>
 
         <Image src="/images/Nirina_za_Landing_Page/About_Us_Image.png" className="z-5 rounded-3xl relative bottom-[30px] lg:bottom-0" alt='Nirina dog shelter' height={1400} width={1400}/>

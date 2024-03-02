@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { RxHamburgerMenu } from "react-icons/rx";
+import Link from 'next/link';
 export default function Navigation({setAside}) {
 
 
@@ -16,7 +17,7 @@ export default function Navigation({setAside}) {
         <div className='hidden md:flex'>
             <ul className='md:flex md:items-center md:font-semibold'>
                 <li className='xl:ml-14 md:ml-8 cursor-pointer'>Home</li>
-                <li className='xl:ml-14 md:ml-8 cursor-pointer'>About Us</li>
+                <li className='xl:ml-14 md:ml-8 cursor-pointer'><Link href="/about">About Us</Link></li>
                 <li className='xl:ml-14 md:ml-8 cursor-pointer'>Programs</li>
                 <li className='xl:ml-14 md:ml-8 cursor-pointer'>Gallery</li>
                 <li className='xl:ml-14 md:ml-8 cursor-pointer'>Contact</li>

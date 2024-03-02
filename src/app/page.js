@@ -6,19 +6,11 @@ import Sidebar from "@/components/sidebar";
 import Footer from "@/components/footer";
 export default function Home() {
 
-  const [showSidebar, setShowSidebar] = useState(false);
-
-  const setAside = () =>{
-    setShowSidebar(!showSidebar)
-  }
-
- 
+  
   return (
     <>
-      <Sidebar showSidebar={showSidebar} setAside={setAside}/> 
-       <Navigation setAside={setAside}/>
       <Main />
-      <Footer />
+
     </>
   );
 }

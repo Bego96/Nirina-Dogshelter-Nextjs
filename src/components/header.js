@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <div className='px-4 py-16 lg:p-24'>
+    <div id="homeTop" className='px-4 py-16 lg:p-24 mt-20'>
         <div className='px-4 py-12 bg-hero-img bg-no-repeat bg-cover bg-center rounded-2xl overflow-hidden w-full xl:px-24 xl:py-72'>
             <div className='flex flex-col'>
                 <h1 className='font-semibold text-4xl lg:text-6xl xl:text-7xl'>

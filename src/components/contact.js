@@ -5,7 +5,7 @@ import { RiFacebookCircleLine } from "react-icons/ri";
 import Image from 'next/image';
 export default function Contact() {
   return (
-    <div className='text-bordeaux-slate px-4 py-20 flex flex-col md:flex-row lg:justify-between lg:items-center lg:p-24'>
+    <div id="contact" className='text-bordeaux-slate px-4 py-20 flex flex-col md:flex-row lg:justify-between lg:items-center lg:p-24'>
         <div className='w-full lg:w-1/2 mb-10 md:mb-0'>
             <h3 className='text-2xl font-semibold mb-6'>Contact</h3>
             <p>For any information or volunteering contact us via</p>

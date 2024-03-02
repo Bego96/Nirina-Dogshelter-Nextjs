@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 export default function Programs() {
   return (
-    <div className='flex flex-col items-center bg-white text-bordeaux-black px-4 py-16 lg:p-24'>
+    <div id="programs" className='flex flex-col items-center bg-white text-bordeaux-black px-4 py-16 lg:p-24'>
         <h2 className='font-semibold text-4xl xl:text-6xl mb-12'>Programs</h2>
 
         <div className='shadow-[0_6px_16px_rgb(0,0,0,0.2)] mb-12 xl:mb-24 flex flex-col bg-bordeaux-brown p-8 rounded-xl justify-center items-center md:flex-row'>

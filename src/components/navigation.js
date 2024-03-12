@@ -22,10 +22,10 @@ export default function Navigation({setAside}) {
         <div className='hidden md:flex'>
             <ul className='md:flex md:items-center md:font-semibold'>
                 <li className='xl:ml-14 md:ml-8 cursor-pointer' onClick={() => scrollToSection('homeTop')}><Link href="/">Home</Link></li>
-                <li className='xl:ml-14 md:ml-8 cursor-pointer' onClick={() => scrollToSection('aboutUs')}>About Us</li>
-                <li className='xl:ml-14 md:ml-8 cursor-pointer' onClick={() => scrollToSection('programs')}>Programs</li>
-                <li className='xl:ml-14 md:ml-8 cursor-pointer' onClick={() => scrollToSection('gallery')}>Gallery</li>
-                <li className='xl:ml-14 md:ml-8 cursor-pointer' onClick={() => scrollToSection('contact')}>Contact</li>
+                <li className='xl:ml-14 md:ml-8 cursor-pointer' onClick={() => scrollToSection('aboutUs')}><Link href="/#aboutUs" scroll={true}>About Us</Link></li>
+                <li className='xl:ml-14 md:ml-8 cursor-pointer' onClick={() => scrollToSection('programs')}><Link href="/#programs" scroll={true}>Programs</Link></li>
+                <li className='xl:ml-14 md:ml-8 cursor-pointer' onClick={() => scrollToSection('gallery')}><Link href="/#gallery" scroll={true}>Gallery</Link></li>
+                <li className='xl:ml-14 md:ml-8 cursor-pointer' onClick={() => scrollToSection('contact')}><Link href="/#contact" scroll={true}>Contact</Link></li>
             </ul>
             <button className="hidden text-black hover:text-white md:block group relative px-12 py-2 overflow-hidden rounded-lg bg-yellow text-lg shadow xl:ml-14 md:ml-8 cursor-pointer">
                 <div className="absolute inset-0 w-0 bg-orange transition-all duration-[250ms] ease-out group-hover:w-full"></div>

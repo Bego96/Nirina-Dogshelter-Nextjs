@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 export default function AboutUs() {
+
   return (
     <div id="aboutUs" className='pt-16 bg-bordeaux-brown flex justify-end p-4 lg:p-24'>
 

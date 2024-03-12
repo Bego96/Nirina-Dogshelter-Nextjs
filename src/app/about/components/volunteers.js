@@ -11,7 +11,7 @@ export default function Volunteers() {
             </p>
             <button className=" text-black hover:text-white mt-12 group relative h-[44px] w-[250px] overflow-hidden rounded-lg bg-yellow  text-lg shadow cursor-pointer">
                 <div className="absolute inset-0 w-0 bg-orange transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                <span className="relative font-semibold">Join Us</span>
+                <span className="relative font-semibold"><a href='https://www.facebook.com/groups/330001807080905' target="_blank">Join Us</a></span>
           </button>
         </div>
         <div className='flex flex-col flex-wrap justify-center md:items-end xl:w-2/3 sm:flex-row gap-6 md:gap-4'>
